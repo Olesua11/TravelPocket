@@ -1,0 +1,20 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/surface_alt">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TravelPocket" android:textSize="14sp" android:textColor="@color/muted"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Мои поездки" android:textSize="30sp" android:textStyle="bold" android:textColor="@color/ink"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Планы, маршруты и бюджет в одном месте" android:textSize="14sp" android:textColor="@color/muted"/>
+
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="18dp">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/tripList" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToPadding="false" android:paddingBottom="92dp"/>
+            <TextView android:id="@+id/emptyState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="Пока нет поездок" android:textColor="@color/muted" android:visibility="gone"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/addTrip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="20dp" android:text="Добавить поездку" android:textColor="@color/white"
+        app:backgroundTint="@color/accent" app:icon="@android:drawable/ic_input_add" app:iconTint="@color/white"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

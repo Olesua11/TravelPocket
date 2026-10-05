@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/surface_alt">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Маршрут" android:textSize="30sp" android:textStyle="bold" android:textColor="@color/ink"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Стамбул · 14 октября" android:textColor="@color/muted"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="18dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="09:00" android:textColor="@color/muted"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Завтрак в Karaköy" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ink"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="11:30  ·  Галатская башня\n14:00  ·  Гранд-базар\n18:30  ·  Прогулка по Босфору" android:textSize="15sp" android:lineSpacingExtra="8dp" android:textColor="@color/ink"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="18dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Заметки на день" android:textStyle="bold" android:textColor="@color/ink"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Купить Istanbulkart, проверить время последнего парома, оставить запас на дорогу в аэропорт." android:textColor="@color/muted" android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

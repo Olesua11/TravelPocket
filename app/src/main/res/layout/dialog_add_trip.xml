@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="8dp">
+    <EditText android:id="@+id/city" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Город"/>
+    <EditText android:id="@+id/country" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Страна"/>
+    <EditText android:id="@+id/startDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Дата начала"/>
+    <EditText android:id="@+id/endDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Дата окончания"/>
+    <EditText android:id="@+id/budget" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Бюджет" android:inputType="number"/>
+</LinearLayout>

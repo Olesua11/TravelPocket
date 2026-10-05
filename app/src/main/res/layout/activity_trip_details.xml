@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/surface_alt">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="← Назад" android:textColor="@color/accent" android:textStyle="bold" android:paddingVertical="8dp"/>
+        <TextView android:id="@+id/city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textSize="32sp" android:textStyle="bold" android:textColor="@color/ink"/>
+        <TextView android:id="@+id/country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:textColor="@color/muted"/>
+        <TextView android:id="@+id/dates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/ink"/>
+        <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_chip" android:paddingHorizontal="10dp" android:paddingVertical="6dp" android:textColor="@color/accent"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="18dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Бюджет поездки" android:textStyle="bold" android:textColor="@color/ink"/>
+            <TextView android:id="@+id/totalBudget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textSize="28sp" android:textStyle="bold" android:textColor="@color/ink"/>
+            <TextView android:id="@+id/spent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/muted"/>
+            <TextView android:id="@+id/remaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/accent" android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
